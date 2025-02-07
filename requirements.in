@@ -1,13 +1,11 @@
-python-telegram-bot==12.8
-cryptography<3.4
-PySocks
-    # plugin: telegram
+# https://github.com/Flexget/Flexget/blob/develop/pyproject.toml
+python-telegram-bot[http2,socks]~=21.9
 cloudscraper
     # plugin: cfscraper
 rarfile
     # plugin: decompress
-transmission-rpc
-deluge-client
-irc-bot<1.0.40
+transmission-rpc~=7.0
+deluge-client~=1.10
+irc-bot
     # plugin: others
 flexget
